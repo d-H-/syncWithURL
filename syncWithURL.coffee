@@ -39,8 +39,8 @@ class UrlSync
           console.log "calling df", df
           df()
 
-
-angular.module('syncWithURL').provider "SyncWithUrl", ()->
+mod = angular.module('syncWithURL',[])
+mod.provider "SyncWithUrl", ()->
 
   returnObj = {}
 
