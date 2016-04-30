@@ -1,0 +1,21 @@
+{
+  "name": "syncWithURL",
+  "authors": [
+    "Dave Benson <davehbenson@gmail.com>"
+  ],
+  "description": "Angular.js utility to sync scope variables with the search portion of the page's URL",
+  "main": "syncWithURL.coffee",
+  "keywords": [
+    "utility",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/d-H-/syncWithURL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
