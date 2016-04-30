@@ -55,7 +55,7 @@
 
   })();
 
-  angular.module('sbMetadataApp').provider("SyncWithUrl", function() {
+  angular.module('syncWithURL').provider("SyncWithUrl", function() {
     var returnObj;
     returnObj = {};
     returnObj.$get = [

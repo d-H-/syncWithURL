@@ -40,7 +40,7 @@ class UrlSync
           df()
 
 
-angular.module('sbMetadataApp').provider "SyncWithUrl", ()->
+angular.module('syncWithURL').provider "SyncWithUrl", ()->
 
   returnObj = {}
 
